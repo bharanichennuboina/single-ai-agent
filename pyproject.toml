@@ -1,0 +1,32 @@
+[project]
+name = "agentic-ai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Bharani Chennuboina", email = "bharanichennuboina34@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "dotenv>=0.9.9",
+    "groq<1",
+    "langchain>=1.3.17",
+    "langchain-community>=0.4.2",
+    "langchain-google-genai>=4.3.6",
+    "langchain-groq>=1.1.3",
+    "langchain-mistralai>=1.1.6",
+    "langchain-tavily>=0.2.18",
+    "lib>=4.0.0",
+    "matplot>=0.1.9",
+    "mistralai>=2.9.1",
+    "numpy>=2.4.6",
+    "tiktoken>=0.13.0",
+    "transformers>=5.14.1",
+]
+
+[project.scripts]
+agentic-ai = "agentic_ai:main"
+
+[build-system]
+requires = ["uv_build>=0.12.0,<0.13.0"]
+build-backend = "uv_build"
