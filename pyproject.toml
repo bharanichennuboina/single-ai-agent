@@ -20,6 +20,7 @@ dependencies = [
     "matplot>=0.1.9",
     "mistralai>=2.9.1",
     "numpy>=2.4.6",
+    "streamlit>=1.40.0",
     "tiktoken>=0.13.0",
     "transformers>=5.14.1",
 ]
